@@ -43,6 +43,7 @@ function lazyWarriorLoad.LoadWarriorLocalization(locale)
 	lazyWarriorLocale.enUS.ACTION_TTS.shieldWall        = "Shield Wall"
 	lazyWarriorLocale.enUS.ACTION_TTS.slam              = "Slam"
 	lazyWarriorLocale.enUS.ACTION_TTS.fj                = "Counterattack"
+	lazyWarriorLocale.enUS.ACTION_TTS.masterStrike      = "Master Strike"
 
 	-- LazyWarrior.lua
 	WARRIOR_ADDON_LOADED = " loaded. Powered by "
