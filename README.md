@@ -1,11 +1,11 @@
-#Custom Fork for LazyScript
+# Custom Fork for LazyScript
 
 *This is a work in progress and edits made based on personal preferences. All changes will be for english locale ONLY.*
 
 **CUSTOM CHANGES CAN BE REQUESTED VIA ISSUES**
 
 
-##***V1.0***
+## ***V1.0***
 
 **GENERAL**
 - Minor improvements to logic here or there.
