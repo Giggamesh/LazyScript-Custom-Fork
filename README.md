@@ -18,6 +18,7 @@ I can update as needed via requests made in [**ISSUES**](https://github.com/Gigg
 
 - Added the ability to cast sunder based on % armor reduction and not just flat rates. ("^ifArmorReduction([<=>])(%d+)(%%?)$").
 - Sunder flat rate logic included to determine how effective 1 stack of sunder is on the current target.
+- Ability Master Strike added
 
 ### **HUNTER:**
 
