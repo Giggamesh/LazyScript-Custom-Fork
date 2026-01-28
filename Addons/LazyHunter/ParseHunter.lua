@@ -72,22 +72,28 @@ function lazyHunterLoad.LoadParseHunter()
 
 
 	-- Pet actions
-	lazyHunter.actions.petBite             = lazyHunter.PetAction:New("petBite",              "Ability_Racial_Cannibalize", nil, nil, true)
+	lazyHunter.actions.petBubble           = lazyHunter.PetAction:New("petBubble",         "spell_bubl1")
+	lazyHunter.actions.petBite             = lazyHunter.PetAction:New("petBite",           "Ability_Racial_Cannibalize", nil, nil, true)
 	lazyHunter.actions.petBreath           = lazyHunter.PetAction:New("petBreath",         "Spell_Nature_Lightning")
 	lazyHunter.actions.petCharge           = lazyHunter.PetAction:New("petCharge",         "Ability_Hunter_Pet_Boar")
 	lazyHunter.actions.petClaw             = lazyHunter.PetAction:New("petClaw",           "Ability_Druid_Rake")
 	lazyHunter.actions.petCower            = lazyHunter.PetAction:New("petCower",          "Ability_Druid_Cower", nil, nil, true)
 	lazyHunter.actions.petDash             = lazyHunter.PetAction:New("petDash",           "Ability_Druid_Dash")
+	lazyHunter.actions.petDeath            = lazyHunter.PetAction:New("petDeath",          "Ability_Hunter_Pet_Crocolisk")
 	lazyHunter.actions.petDive             = lazyHunter.PetAction:New("petDive",           "Spell_Shadow_BurningSpirit")
 	lazyHunter.actions.petGrowl            = lazyHunter.PetAction:New("petGrowl",          "Ability_Physical_Taunt", nil, nil, true)
 	lazyHunter.actions.petHowl             = lazyHunter.PetAction:New("petHowl",           "Ability_Hunter_Pet_Wolf")
+	lazyHunter.actions.petPack             = lazyHunter.PetAction:New("petPack",           "Ability_Hunter_Pet_Hyena")
 	lazyHunter.actions.petPoison           = lazyHunter.PetAction:New("petPoison",         "Ability_PoisonSting")
 	lazyHunter.actions.petProwl            = lazyHunter.PetAction:New("petProwl",          "Ability_Druid_SupriseAttack")
-	lazyHunter.actions.petSavagerend       = lazyHunter.PetAction:New("petSavagerend",        "Ability_druid_disembowel")
+	lazyHunter.actions.petRoar             = lazyHunter.PetAction:New("petRoar",           "Ability_Druid_ChallangingRoar")
+	lazyHunter.actions.petSavage           = lazyHunter.PetAction:New("petSavage",         "Ability_druid_disembowel")
 	lazyHunter.actions.petStomp            = lazyHunter.PetAction:New("petStomp",          "Ability_Hunter_Pet_Gorilla")
 	lazyHunter.actions.petScreech          = lazyHunter.PetAction:New("petScreech",        "Ability_Hunter_Pet_Bat")
+	lazyHunter.actions.petStrider          = lazyHunter.PetAction:New("petStrider",        "Spell_Holy_Dizzy")
 	lazyHunter.actions.petShell            = lazyHunter.PetAction:New("petShell",          "Ability_Hunter_Pet_Turtle")
 	lazyHunter.actions.petUnprowl          = lazyHunter.PetAction:New("petUnprowl",        "Ability_Vanish")
+	lazyHunter.actions.petWeb              = lazyHunter.PetAction:New("petWeb",            "Spell_Nature_Web")
 
 
 	-- Trackers

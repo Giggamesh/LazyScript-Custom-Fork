@@ -332,6 +332,7 @@ lsLocale = {}
 			huntersMark          = "Hunter's Mark",
 			immolationTrap       = "Immolation Trap Effect",
 			intimidate           = "Intimidation",
+			killCommand          = "Kill Command",
 			quickShots           = "Quick Shots",
 			rapidFire            = "Rapid Fire",
 			scare                = "Scare Beast",

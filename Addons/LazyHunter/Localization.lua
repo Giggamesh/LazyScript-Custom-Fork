@@ -5,7 +5,6 @@ function lazyHunterLoad.LoadHunterLocalization(locale)
 	lazyHunterLocale.enUS.ACTION_TTS.aimed                = "Aimed Shot"
 	lazyHunterLocale.enUS.ACTION_TTS.autoShot             = "Auto Shot"
 	lazyHunterLocale.enUS.ACTION_TTS.arcane               = "Arcane Shot"
-	lazyHunterLocale.enUS.ACTION_TTS.killCommand          = "Kill Command"
 	lazyHunterLocale.enUS.ACTION_TTS.aspectBeast          = "Aspect of the Beast"
 	lazyHunterLocale.enUS.ACTION_TTS.aspectCheetah        = "Aspect of the Cheetah"
 	lazyHunterLocale.enUS.ACTION_TTS.aspectHawk           = "Aspect of the Hawk"
@@ -31,9 +30,10 @@ function lazyHunterLoad.LoadHunterLocalization(locale)
 	lazyHunterLocale.enUS.ACTION_TTS.flare                = "Flare"
 	lazyHunterLocale.enUS.ACTION_TTS.frostTrap            = "Frost Trap"
 	lazyHunterLocale.enUS.ACTION_TTS.freezingTrap         = "Freezing Trap"
+	lazyHunterLocale.enUS.ACTION_TTS.huntersMark          = "Hunter's Mark"
 	lazyHunterLocale.enUS.ACTION_TTS.immolationTrap       = "Immolation Trap"
 	lazyHunterLocale.enUS.ACTION_TTS.intimidate           = "Intimidation"
-	lazyHunterLocale.enUS.ACTION_TTS.huntersMark          = "Hunter's Mark"
+	lazyHunterLocale.enUS.ACTION_TTS.killCommand          = "Kill Command"
 	lazyHunterLocale.enUS.ACTION_TTS.lacerate             = "Lacerate"
 	lazyHunterLocale.enUS.ACTION_TTS.mend                 = "Mend Pet"
 	lazyHunterLocale.enUS.ACTION_TTS.mongoose             = "Mongoose Bite"
@@ -64,26 +64,45 @@ function lazyHunterLoad.LoadHunterLocalization(locale)
 	lazyHunterLocale.enUS.ACTION_TTS.bestialWrath         = "Bestial Wrath"
 	lazyHunterLocale.enUS.ACTION_TTS.wyvern               = "Wyvern Sting"
 
+	lazyHunterLocale.enUS.ACTION_TTS.petBubble            = "Bubble Barrier"
 	lazyHunterLocale.enUS.ACTION_TTS.petBite              = "Bite"
 	lazyHunterLocale.enUS.ACTION_TTS.petBreath            = "Lightning Breath"
 	lazyHunterLocale.enUS.ACTION_TTS.petCharge            = "Charge"
 	lazyHunterLocale.enUS.ACTION_TTS.petClaw              = "Claw"
 	lazyHunterLocale.enUS.ACTION_TTS.petCower             = "Cower"
 	lazyHunterLocale.enUS.ACTION_TTS.petDash              = "Dash"
+	lazyHunterLocale.enUS.ACTION_TTS.petDeath             = "Death Roll"
 	lazyHunterLocale.enUS.ACTION_TTS.petDive              = "Dive"
 	lazyHunterLocale.enUS.ACTION_TTS.petGrowl             = "Growl"
 	lazyHunterLocale.enUS.ACTION_TTS.petHowl              = "Furious Howl"
+	lazyHunterLocale.enUS.ACTION_TTS.petPack              = "Packleader"
 	lazyHunterLocale.enUS.ACTION_TTS.petPoison            = "Scorpid Poison"
 	lazyHunterLocale.enUS.ACTION_TTS.petProwl             = "Prowl"
-	lazyHunterLocale.enUS.ACTION_TTS.petSavagerend        = "Savage Rend"
+	lazyHunterLocale.enUS.ACTION_TTS.petRoar              = "Roar of Fortitude"
+	lazyHunterLocale.enUS.ACTION_TTS.petSavage            = "Savage Rend"
 	lazyHunterLocale.enUS.ACTION_TTS.petScreech           = "Screech"
 	lazyHunterLocale.enUS.ACTION_TTS.petShell             = "Shell Shield"
 	lazyHunterLocale.enUS.ACTION_TTS.petStomp             = "Thunder Stomp"
+	lazyHunterLocale.enUS.ACTION_TTS.petStrider           = "Strider Presence"
 	lazyHunterLocale.enUS.ACTION_TTS.petUnprowl           = "Stop Prowling"
+	lazyHunterLocale.enUS.ACTION_TTS.petWeb               = "Web"
 	
 	-- Alias to fix issues with invalid tokens from pet damaging abilities
 	lazyHunterLocale.enUS.ACTION_TTS.Bite = lazyHunterLocale.enUS.ACTION_TTS.petBite
-	lazyHunterLocale.enUS.ACTION_TTS["Savage Rend"] = lazyHunterLocale.enUS.ACTION_TTS.petSavagerend
+	lazyHunterLocale.enUS.ACTION_TTS["Lightning Breath"] = lazyHunterLocale.enUS.ACTION_TTS.petBreath
+	lazyHunterLocale.enUS.ACTION_TTS.Charge = lazyHunterLocale.enUS.ACTION_TTS.petCharge
+	lazyHunterLocale.enUS.ACTION_TTS.Claw = lazyHunterLocale.enUS.ACTION_TTS.petClaw
+	lazyHunterLocale.enUS.ACTION_TTS["Death Roll"] = lazyHunterLocale.enUS.ACTION_TTS.petDeath
+	lazyHunterLocale.enUS.ACTION_TTS.Packleader = lazyHunterLocale.enUS.ACTION_TTS.petPack
+	lazyHunterLocale.enUS.ACTION_TTS["Savage Rend"] = lazyHunterLocale.enUS.ACTION_TTS.petSavage
+	lazyHunterLocale.enUS.ACTION_TTS["Scorpid Poison"] = lazyHunterLocale.enUS.ACTION_TTS.petPoison
+	lazyHunterLocale.enUS.ACTION_TTS["Roar of Fortitude"] = lazyHunterLocale.enUS.ACTION_TTS.petRoar
+	lazyHunterLocale.enUS.ACTION_TTS["Shell Shield"] = lazyHunterLocale.enUS.ACTION_TTS.petShell
+	lazyHunterLocale.enUS.ACTION_TTS.Screech = lazyHunterLocale.enUS.ACTION_TTS.petScreech
+	lazyHunterLocale.enUS.ACTION_TTS["Thunder Stomp"] = lazyHunterLocale.enUS.ACTION_TTS.petStomp
+	lazyHunterLocale.enUS.ACTION_TTS.Web = lazyHunterLocale.enUS.ACTION_TTS.petWeb
+	lazyHunterLocale.enUS.ACTION_TTS["Strider Presence"] = lazyHunterLocale.enUS.ACTION_TTS.petStrider
+	
 
 	-- LazyHunter.lua
 	HUNTER_ADDON_LOADED = " loaded. Powered by "
