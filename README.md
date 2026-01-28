@@ -4,7 +4,7 @@
 
 **All changes will be for english locale ONLY.**
 
-I can update as needed via requests made in **ISSUES**.
+I can update as needed via requests made in [**ISSUES**](https://github.com/Giggamesh/LazyScript-Custom-Fork/issues).
 
 
 ## ***V1.0***
