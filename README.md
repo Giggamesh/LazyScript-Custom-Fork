@@ -19,7 +19,7 @@
 
 **HUNTER:**
 
-- Changed ifSwinged to work with Quiver rather than SP_Swingtimer as this seems to be the more popular choice. This will allow for future modifications that can check of autoshot is on cooldown (just fired).
+- Changed ifSwinged to work with Quiver rather than SP_Swingtimer as this seems to be the more popular choice. This will allow for future modifications that can check if autoshot is on cooldown (just fired).
 - Added ability Carve
 - Added ability Baited Shot
 - Added ability Lacerate
