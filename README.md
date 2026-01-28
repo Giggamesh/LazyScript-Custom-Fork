@@ -7,7 +7,7 @@
 I can update as needed via requests made in [**ISSUES**](https://github.com/Giggamesh/LazyScript-Custom-Fork/issues).
 
 
-## ***V1.1***
+## ***V1.0***
 
 ### **GENERAL**
 - Minor improvements to logic here or there.
