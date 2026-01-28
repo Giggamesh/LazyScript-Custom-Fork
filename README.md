@@ -7,7 +7,7 @@
 I can update as needed via requests made in [**ISSUES**](https://github.com/Giggamesh/LazyScript-Custom-Fork/issues).
 
 
-## ***V1.0***
+## ***V1.1***
 
 ### **GENERAL**
 - Minor improvements to logic here or there.
@@ -26,8 +26,15 @@ I can update as needed via requests made in [**ISSUES**](https://github.com/Gigg
 - Added ability Carve.
 - Added ability Baited Shot.
 - Added ability Lacerate.
+- Added pet ability Bubble Barrier.
+- Added pet ability Death Roll.
+- Added pet ability Packleader.
+- Added pet ability Roar of Fortitude.
 - Added pet ability Savage Rend.
+- Added pet ability Strider Presence.
+- Added pet ability Web.
 - Added aliases for pet damage abilities to remove chat window invalid alias errors.
+- Added buff Kill Command.
 
 
 	
