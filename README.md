@@ -6,6 +6,7 @@
 
 I can update as needed via requests made in [**ISSUES**](https://github.com/Giggamesh/LazyScript-Custom-Fork/issues).
 
+Optional Dependancy: [SP_Swingtimer - Giggamesh Fork](https://github.com/Giggamesh/SP_Swingtimer).
 
 ## ***V1.0***
 
