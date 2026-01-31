@@ -388,7 +388,8 @@ function lazyScript.formHelp.SetupCriteria()
 	text = text.."<P>-if[Not]Shadowmelded</P>"
 	text = text.."<P>-if[Not]Tracking={Herbs, Minerals, Treasure}</P>"
 	text = text.."<P>-if[{&lt;,=,&gt;}]XAttackers |cffffff00("..TAB_CRITERIA_PVP_ONLY..")|r</P>"
-	text = text.."<P>-if[Not]Zone=zonename</P><BR/>"
+	text = text.."<P>-if[Not]Zone=zonename</P>"
+	text = text.."<P>-if[Not]Moving |cffffff00(need MonkeySpeed)|r</P><BR/>"
 	text = text..TAB_CRITERIA_PET
 	text = text.."<P>-if[Not]HasPet</P>"
 	text = text.."<P>-if[Not]PetAlive</P>"

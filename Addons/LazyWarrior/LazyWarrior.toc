@@ -7,7 +7,7 @@
 ## Notes: Programmable Warrior Attacks.
 ## Notes-zhCN: 编写你的个性脚本 - |cffC59A6C战士一键畅玩|r
 ## RequiredDeps: LazyScript
-## OptionalDeps: MobInfo-2, Tracer, SP_SwingTimer, MonkeySpeed, Attackbar
+## OptionalDeps: MobInfo-2, Tracer 
 ## LoadOnDemand: 1
 ## X-LazyScriptVersion: 1.0
 

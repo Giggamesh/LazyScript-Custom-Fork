@@ -1731,7 +1731,7 @@ end
 
 	function lazyScript.masks.isSwinged()
 		if not st_timer then
-			lazyScript.p("need SP_SwingTimer Giggamesh fork")
+			lazyScript.p("Need SP_SwingTimer Giggamesh fork")
 			return false
 		end
 		if st_timer + 0.15 > UnitAttackSpeed("player") then
@@ -1747,6 +1747,27 @@ end
 		end
 		local negate = lazyScript.negate1()
 		table.insert(masks, lazyScript.negWrapper(lazyScript.masks.isSwinged, negate))
+		return true
+	end
+	
+	function lazyScript.masks.isMoving()
+		if not MonkeySpeed.m_fSpeed then
+			lazyscript.p("Need Monkeyspeed")
+			return false
+		end
+		if MonkeySpeed.m_fSpeed ~= 0 then
+			return true
+		else
+			return false
+		end
+	end
+	
+	function lazyScript.bitParers.ifMoving(bit, actions, masks)
+		if (not lazyScript.rebit(bit, "^If(Not)?Moving$")) then
+			return false
+		end
+		local negate = lazyScript.negate1()
+		table.insert(masks, lazyScript.negWrapper(lazyScript.masks.isMoving, negate))
 		return true
 	end
 
